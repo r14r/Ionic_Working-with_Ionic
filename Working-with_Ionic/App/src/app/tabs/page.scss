@@ -1,0 +1,36 @@
+$default-color: orange;
+
+.desktop {
+	ion-router-outlet {
+		margin-top: 56px;
+		margin-bottom: 56px;
+	}
+
+	.logo {
+		max-height: 40px;
+	}
+
+	ion-toolbar {
+		--background: orange;
+	}
+
+	.link {
+		--color: var(--ion-color-light);
+	}
+
+	.active-link {
+		--color: var(--ion-color-primary);
+	}
+}
+
+.footer {
+	width: 100%;
+	color: $default-color;
+	font-weight: bold;
+	background: $default-color;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
